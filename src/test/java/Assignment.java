@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Assignment {
-    public static void main(String[] args ) {
+    public static void main(String[] args) {
 
         String text = "Goran";
         System.setProperty("webdriver.chrome.driver", "C:/Users/goran/Documents/chromedriver.exe");
@@ -17,8 +17,6 @@ public class Assignment {
         System.out.println(driver.switchTo().alert().getText());
 
         driver.switchTo().alert().dismiss();
-
-
 
 
     }
