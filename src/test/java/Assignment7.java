@@ -23,6 +23,12 @@ public class Assignment7 {
         System.out.println(driver.findElement(By.cssSelector(".table-display tr:nth-child(3) td:nth-child(2)")).getText());
         System.out.println(driver.findElement(By.cssSelector(".table-display tr:nth-child(3) td:nth-child(3)")).getText());
 
+        System.out.println(rowsCount.size());
+        System.out.println(columnCount.size());
+
+        System.out.println(driver.findElement(By.cssSelector(".table-display tr:nth-child(3) td:nth-child(1)")).getText());
+        System.out.println(driver.findElement(By.cssSelector(".table-display tr:nth-child(3) td:nth-child(2)")).getText());
+        System.out.println(driver.findElement(By.cssSelector(".table-display tr:nth-child(3) td:nth-child(3)")).getText());
 
 //        WebElement table = driver.findElement(By.id("product"));
 //
