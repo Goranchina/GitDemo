@@ -23,6 +23,7 @@ public class Assignment4 {
         System.out.println(driver.findElement(By.className("example")).getText());
         driver.switchTo().window(parentId);
         System.out.println(driver.findElement(By.tagName("h3")).getText());
+        System.out.println(driver.findElement(By.tagName("h3")).getText());
 
     }
 }

@@ -18,7 +18,14 @@ public class Assignment {
         System.out.println(driver.switchTo().alert().getText());
         System.out.println(driver.switchTo().alert().getText());
         driver.switchTo().alert().dismiss();
+        //one guy
+        //second guy
+        //third guy
 
+        System.out.println(driver.switchTo().alert().getText());
+        System.out.println(driver.switchTo().alert().getText());
+        System.out.println(driver.switchTo().alert().getText());
+        System.out.println(driver.switchTo().alert().getText());
 
     }
 }
