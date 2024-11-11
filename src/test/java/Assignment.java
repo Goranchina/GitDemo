@@ -15,7 +15,8 @@ public class Assignment {
         driver.switchTo().alert().accept();
         driver.findElement(By.id("confirmbtn")).click();
         System.out.println(driver.switchTo().alert().getText());
-
+        System.out.println(driver.switchTo().alert().getText());
+        System.out.println(driver.switchTo().alert().getText());
         driver.switchTo().alert().dismiss();
 
 
